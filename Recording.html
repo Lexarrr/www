@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="author" content="Sandrat">
+    <meta name="description" content="Официальный сайт">
+    <meta name="keywords" content="сайт, клиент, Бровист, Brows-мастер">
+    <title>THEBROWS.VOG</title>
+    <link rel="stylesheet" href="css/file.css">
+    <style media="screen">
+
+    </style>
+  </head>
+  <body>
+    <header>
+      <div class="menu">
+        <a href="index.html" class="mun">Main page</a>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+        <a href="index.html" class="mun">Catalog</a>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+        <a href="Gallery.html" class="mun">Gallery</a>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+        <a href="index.html",href="#Cata" class="mun">Contacts</a>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+        <a href="recording.html" class="mun">Form for recording</a>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+      </div>
+  </header>
+
+<div class="headnf">
+  <h2>THEBROWS.VOG</h2>
+  <h2>Регистрация</h2>
+  <p>Заполните данные, чтобы записаться</p>
+</div>
+<a name ="form">
+  <form action="" method="post">
+      <fieldset>
+        <!-- <legend>Записаться</legend> -->
+          <div class="for" align="justify">
+                        <label for="user_name"> Ваше имя </label><br>
+                          <input type="text" placeholder="Введите имя" value="" maxlength="50" name="user_name" id="user_name" required><br>
+                        <label for="user_mail"> Ваш email </label><br>
+                          <input type="email" name="email_type"  placeholder="Example@mail.ru"  required><br>
+                        <label for="Услуга">Выбор услуги</label><br>
+                              <select class="selected" name="Услуга" autofocus>
+                                <option value="0" disabled selected>--Выбор услуги--</option>
+                                <option value="1">Полное преображение</option>
+                                <option value="2">Коррекция</option>
+                                <option value="3">Окрашивание</option>
+                                <option value="4">Долговременная укладка</option>
+                              </select><br>
+                        <label for="user_date"> Желаемое время записи</label><br>
+                                <input type="date" name="date_type" required><br>
+                                <input type="time" name="time_type" value="" required><br>
+                        <label for="user_сом"> Комментарий </label><br>
+                                <textarea class="ta" name="name" rows="8" cols="80" placeholder="Пожелания к посещению"></textarea><br>
+                        <label for="rad_type"> Это ваше первое посещение?</label><br>
+                        <label for="r">да </label>
+                                <input type="radio" value="9" name="rad_type" id="r" required><br>
+                        <label for="r1">нет</label>
+                                <input type="radio" value="8" name="rad_type" id="r1" required><br>
+                        <label for="check_type"> Я соглашаюсь на использование персональных данных</label><br>
+                                <input type="checkbox" value="6" name="check_type" id="check_type"required checked><br>
+                          <label for="check_type1"> Я соглашаюсь на отправку новинок и акций на email</label><br>
+                                <input type="checkbox" value="7" name="check_type1" id="check_type1"checked><br>
+                      <progress max="100">0%</progress>
+                      <br>
+                      <br>
+            <div class="buttons">
+              <button class="fill">Sign up</button>
+            </div>
+          </div>
+    </fieldset>
+  </form> <!-- для бд -->
+
+    </a>
+    <br>
+    <div class="footer">
+      <footer>
+        <!-- <address>ST.PETERSBURG, RUSSIA</address> -->
+        <p>&copy HTML Academy, 2023. Все права защищены.</p>
+        <form class="" action="index.html" method="post">
+
+
+        </form>
+      </footer>
+    </div>
+</body>
+</html>

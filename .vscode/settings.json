@@ -1,0 +1,8 @@
+{
+    "screencastMode.hideSingleEditorCursorMoves": true,
+    "screencastMode.onlyKeyboardShortcuts": false,
+    "editor.definitionLinkOpensInPeek": true,
+    "editor.emptySelectionClipboard": false,
+    "diffEditor.codeLens": false,
+    "workbench.settings.openDefaultSettings": true
+}
