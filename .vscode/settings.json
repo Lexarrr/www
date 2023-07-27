@@ -4,5 +4,7 @@
     "editor.definitionLinkOpensInPeek": true,
     "editor.emptySelectionClipboard": false,
     "diffEditor.codeLens": false,
-    "workbench.settings.openDefaultSettings": true
+    "workbench.settings.openDefaultSettings": true,
+    "github.branchProtection": true,
+    "git.verboseCommit": false
 }

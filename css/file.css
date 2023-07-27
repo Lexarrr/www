@@ -148,6 +148,10 @@ body{
 
 }
 
+#main:hover > img {
+  transform: scale(1.1);
+}
+
 #aside {
 
   padding-right: 20px;
@@ -409,6 +413,11 @@ input[type=radio;]{
 
 }
 
+.mk {
+
+  width: 100%;
+
+}
 
 .fill:hover,
 .fill:focus {
@@ -514,6 +523,10 @@ button {
 
   float: left;
 
+}
+
+.imca:hover > img {
+  transform: scale(1.1);
 }
 
 
