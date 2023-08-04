@@ -29,6 +29,7 @@ body{
   align-content: center;
   align-items: center;
   text-align: center;
+  width: 100%;
 
 }
 .menu{
@@ -42,7 +43,7 @@ body{
 
   position: fixed; /* Make it stick/fixed */
   top: -50px; /* Hide the navbar 50 px outside of the top view */
-  width: 100%; /* Full width */
+  /* width: 100%; Full width */
   transition: top 0.3s;
 
   /* margin-bottom: 50px; */
@@ -51,7 +52,10 @@ body{
 
 .menu a {
     float: left;
-    display: block;
+    display: flex;
+    flex-direction: row;
+    /* flex: 0 0 200; */
+    position:static;
     color: white;
     text-align: center;
     padding: 45px;
@@ -157,6 +161,10 @@ body{
   padding-right: 20px;
   padding-left: 70px;
   padding-bottom: 20px;
+  justify-content: center;
+  align-content: center;
+  align-items: center; 
+  text-align: center;*
 
 }
 
@@ -455,13 +463,22 @@ input[type=radio;]{
   box-shadow: inset -3.5em 0 0 0 var(--hover);
   transform: translateY(-0.25em);
   color: #ffa260;
-  background-color:  hsl(25 20% 50% / 0.75);
+  background-color:  hsla(17, 31%, 51%, 0.75);
 }
 .up:hover,
 .up:focus {
   box-shadow: inset 0 -3.25em 0 0 var(--hover);
+  transform: translateY(-0.25em);
   color: #e4cb58;
-  background-color:  hsl(49 20% 50% / 0.75);
+background-color:  hsl(49 20% 50% / 0.75)
+}
+
+
+.cl:hover,
+.cl:focus {
+
+  background-color:  hwb(352 28% 22% / 0.75);
+
 }
 .slide:hover,
 .slide:focus {
@@ -581,6 +598,10 @@ margin-bottom: 100px;
 .containkard{
 
 display: block;
+justify-content: center;
+align-content: center;
+align-items: center; 
+text-align: center;
 
 
 }
@@ -618,7 +639,9 @@ margin-bottom: 90px;
   border-radius: 4px;
   transition: 0.2s;
   position: relative;
-  margin-right: 50px;
+  margin-right: 90px;
+  justify-content: center;
+  /* align-items: center; */
 }
 
 
@@ -653,6 +676,7 @@ margin-bottom: 90px;
 /* При наведении - увеличиваем картинку */
 .card__image:hover > img {
   transform: scale(1.1);
+  position: relative;
 }
 
 /* Размещаем скидку на товар относительно изображения */
@@ -948,14 +972,6 @@ margin-bottom: 50px;
 
 
 }
-
-
-
-
-
-
-
-
 
 
 footer{
