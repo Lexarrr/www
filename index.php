@@ -25,6 +25,8 @@
 
 </header>
 
+
+
   <noscript>Включите javascript</noscript>
 
     <div class="Sale">
@@ -100,7 +102,7 @@
               <div class="card__top">
                 <!-- Изображение-ссылка товара -->
                 <a href="card.html" class="card__image">
-                  <img src="C:\Users\Cашка\Desktop\www\A.jpg" alt="brows">
+                  <img src="A.jpg" alt="brows">
                 </a>
                 <!-- Скидка на товар -->
                 <div class="card__label">-40%</div>
