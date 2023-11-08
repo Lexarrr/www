@@ -198,14 +198,17 @@ body{
       height:250px;
       background-color: #eeeeee;
       margin:auto;
-      background-image:url("brows.jpg", "brows1.jpg");
+      background-image:url("brows.jpg");
+      background-image: url("brows1.jpg");
       animation-name: slide;
       animation-duration: 10s;
       animation-direction: normal;
       animation-timing-function: ease;
       animation-iteration-count: infinite;
-      }
-      @keyframes slide {
+      
+    }
+
+    @keyframes slide {
       0% {background-position:0 0;}
       16.66% {background-position:0 0;}
       33.32% {background-position:-800px 0;}
@@ -214,7 +217,6 @@ body{
       83.30% {background-position:-1600px 0;}
       100% {background-position:0 0;}
       }
-
 
 .Cont {
   display: flex;
@@ -496,13 +498,9 @@ background-color:  hsl(49 20% 50% / 0.75)
 
 }
 
-$colors: (
-  fill: #a972cb,
-  pulse: #ef6eae,
-  close: #ff7f82,
-  raise: #ffa260,
-  up: #e4cb58,
-)
+$colors: (fill: #a972cb, pulse: #ef6eae, close: #ff7f82, raise: #ffa260, up: #e4cb58)
+
+
 
 @each $button, $color in $colors {
   .#{$button} {
