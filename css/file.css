@@ -256,7 +256,7 @@ width: 100%;
     position: absolute;
     text-align: center;
     margin: 0 auto;
-    /* text-shadow: #DCDCDC 1px 5px 8px; */
+    text-shadow: #DCDCDC 1px 5px 8px;
     top: 35%;
     left: 30%;
 }
